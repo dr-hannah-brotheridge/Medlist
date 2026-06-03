@@ -1,4 +1,4 @@
-# MedList PWA: Lightweight Medication Compliance Engine
+# MedList PWA: Medication App Companion and Informative Engine
 
 A clinical, user-centric Progressive Web App (PWA) designed to simplify medication tracking, prevent compliance errors, and provide seamless data collation for patient-doctor check-ups. 
 
