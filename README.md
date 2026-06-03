@@ -4,7 +4,7 @@
 
 A clinical, user-centric Progressive Web App (PWA) designed to simplify medication tracking, prevent compliance errors, and provide seamless data collation for patient-doctor check-ups. 
 
-I am an Applied AI Systems Architect, so I prioritise rapid prototyping and robust data guardrails over manual syntax typing. I architected the relational database schema in Supabase PostgreSQL, implemented Row-Level Security (RLS) to protect clinical data privacy, and used FlutterFlow as an agile compiler for the frontend canvas. For specialised backend behaviours like our automated PDF compilation—I built and deployed targeted TypeScript Edge Functions via the Supabase CLI.
+I architected the relational database schema in Supabase PostgreSQL, implemented Row-Level Security (RLS) to protect clinical data privacy, and used FlutterFlow as an agile compiler for the frontend canvas. For specialised backend behaviours like our automated PDF compilation—I built and deployed targeted TypeScript Edge Functions via the Supabase CLI.
 
 - Tech Stack: FlutterFlow, Supabase (PostgreSQL), Custom Edge Functions (TypeScript/JS).
 - Core Achievement: Engineered a custom search and collation engine for 430+ NZ medications. Deployed custom server-side functions to allow users to generate dynamic, structured medical reports (PDFs) from their profile data.
