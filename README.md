@@ -4,20 +4,21 @@ A clinical, user-centric Progressive Web App (PWA) designed to simplify medicati
 
 I am an Applied AI Systems Architect, so I prioritise rapid prototyping and robust data guardrails over manual syntax typing. I architected the relational database schema in Supabase PostgreSQL, implemented Row-Level Security (RLS) to protect clinical data privacy, and used FlutterFlow as an agile compiler for the frontend canvas. For specialised backend behaviours like our automated PDF compilation—I built and deployed targeted TypeScript Edge Functions via the Supabase CLI.
 
+- Tech Stack: FlutterFlow, Supabase (PostgreSQL), Custom Edge Functions (TypeScript/JS).
+- Core Achievement: Engineered a custom search and collation engine for 430+ NZ medications. Deployed custom server-side functions to allow users to generate dynamic, structured medical reports (PDFs) from their profile data.
+- Key Skill: Full-stack migration from a no-code prototype to a production-ready application with custom backend logic.
+
 ## 🛠️ Core Functional Architecture
 
 ### 1. Progressive Web App Infrastructure
 Built as a highly accessible frontend application designed to operate seamlessly across mobile devices and desktops.
-* **Offline First Capability:** Caches critical medication schedules locally on the device using Service Workers, ensuring patients can log compliance data even without an active internet connection.
 * **Zero-Install Deployment:** Installs directly from a web browser onto a smartphone home screen, bypassing app store friction for elderly or non-tech-savvy users.
 
 ### 2. Clinical Data Structure & Tracking
 Designed around human-factors engineering to minimize cognitive load during active medical treatments:
-* **Structured Dosing Windows:** Logs entries under strict timestamp anchors, mapping compliance accuracy over time.
 * **Medication Information Collation:** Organizes active prescriptions into clear, readable formats ready to be exported directly during a clinical consultation.
 
 ## 🗄️ Backend Data Architecture (Supabase PostgreSQL)
-
 The relational database layer is managed via Supabase, enforcing strict integrity constraints for medical logging data.
 
 ### 1. Database Schema Layout
@@ -42,3 +43,4 @@ To maintain clinical privacy boundaries, **Row Level Security (RLS)** is explici
 ## 🚀 Next Phases of Development
 - **API Orchestration Layer:** Integrating the NZULM or MedSafe medication list as an automatically updating API.
 - **Automated Summarisation:** Implementing a structured pipeline to export compliance history directly into standard GP consultation templates.
+- **Photos:** Allows patients to add photos of their script and medications to help remember what they look like in association to their name. If doctors ask if they have noticed any side effects, or changed any medications themselves and they onnly know the meds by name (common), they can check the photo on the app.
